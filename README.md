@@ -23,7 +23,7 @@ Es por esto que la forma más fácil de analizar la potencia suministrada a una 
 
 ![](https://github.com/erickfi/Practica-5/blob/master/Img/Cambio%20circuito.PNG)
 
-Si graficamos la potencia suministrada en función de la variación de la carga obtenemos un gráfica similara a una camapana de Gauss.
+Si graficamos la potencia suministrada en función de la variación de la carga obtenemos un gráfica similar a una campana de Gauss.
 
 ![](https://github.com/erickfi/Laboratorio-6/blob/master/Img/Grafica.PNG)
 
