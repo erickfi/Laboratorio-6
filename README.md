@@ -86,6 +86,7 @@ Ya que RL y RTh no son iguales no se puede alcanzar una _transferencia máxima d
 - Las resistencias mas próximas a 1200 Ohmios como la de 1000 y 1500, entregan una potencia casi próxima a la potencia máxima, entonces podemos decir que entre mas cercano sea el valor de la resistencia interna, al valor de la resistencia de carga, la potencia tiende a su valor máximo, pero no la van a superar.
 - Para que la potencia sea máxima P= 46.875 mW, la resistencia de la carga RL debe ser igual a la de la fuente RTh, por lo tanto, RL= RTh= 1200 Ω.
 - Se cumple el Teorema de la Máxima Transferencia de Potencia, al observar que la potencia suministrada por todas las resistencias utilizadas es menor a la cálculada si RL=1200 Ω.
+- Dentro de las resistencias utilizadas se obtiene que l resistencia de 1000 Ω, es la que más se aproxima al valor de la potencia máxima, la cuál entrega una potencia de 46.487 mW.
 
 ### 9. RECOMENDACIONES
 
