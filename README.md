@@ -18,7 +18,7 @@ Por otro lado, para conocer la potencia que entrega un circuito es necesario ana
 - Analizar y determinar el menor error porcentual posible
 ### 3. MARCO TEÓRICO
 El **Teorema de la Máxima Transferencia de Potencia** estable:
-> "La máxima potencia se transfiere a la carga cuando la resistencia de la carga es igual a la resistencia de Thévenin vista desde la carga (RL=RTh).[1]
+> "La máxima potencia se transfiere a la carga cuando la resistencia de la carga es igual a la resistencia de Thévenin vista desde la carga (RL=RTh).Sadiku(2006)
 
 Es por esto que la forma más fácil de analizar la potencia suministrada a una carga es simplificando un circuito de dos terminales a un circuito de Thévenin.
 
