@@ -13,8 +13,8 @@ Por otro lado, para conocer la potencia que entrega un circuito es necesario ana
 #### Objetivo General
 - Comprobar experimentalmente el Teorema de la Máxima Transferencia
 #### Objetivos Específicos
-- Calcular y comparar los valores de un circuito de Thévenin de forma analítica y experimental.
-- Aplicar las *Leyes de Kirchhoff* y el *Teorema de superposición* para analizar y reducir un circuito a un circuito de Thévenin.
+- Calcular y comparar los valores de potencia en un circuito de dos terminales de forma analítica y experimental.
+- Demostrar de manera experimental que si RL es diferente de RTh el circuito no alcanzará la potencia máxima.
 ### 3. MARCO TEÓRICO
 El **Teorema de la Máxima Transferencia de Potencia** estable:
 > "La máxima potencia se transfiere a la carga cuando la resistencia de la carga es igual a la resistencia de Thévenin vista desde la carga (RL=RTh).
