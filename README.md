@@ -1,21 +1,17 @@
-# Laboratorio-6
- ## UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
+## UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
 ![](https://github.com/erickfi/Practica-5/blob/master/Img/Escudo.jpg)
-### Práctica de laboratorio N° 5
-## Teorema de Thévenin
+### Práctica de laboratorio N° 6
+## Teorema de la Máxima Transferencia de Potencia
 **Autores:** Figueroa Erick, León Jipshon,Viracucha William.
 ### 1. PLANTEAMIENTO DEL PROBLEMA
-Al analizar los circuitos eléctricos, ya sea en corriente directa DC, o corriente alterna AC, se analiza al circuito en un estado estable, es decir, donde los elementos del circuito no van a variar, no obstante, esto no ocurre cuando usamos un circuito en la vida real. 
+Al momento de diseñar un circuito eléctrico, por lo general, se busca que el circuito cumpla su trabajo, es decir, que los elementos electrónicos del mismo realicen el trabajo, pero no se toma en cuenta la eficacia para realizar este trabajo, recordando que la potencia representa la tasa de la energía que se convierte en trabajo, existen circuitos que buscan precisamente este objetivo, entregar la máxima potencia de tal forma que el trabajo se realice de ser posible sin pérdida de energía.
 
-Hasta ahora se han presentado formas para analizar un circuito, como son las *[Leyes de Kirchhoff](https://github.com/erickfi/Laboratorio--1)*, el *[Teorema de superposición](https://github.com/erickfi/Laboratorio-4)*, entre otros, el problema que presentan es que su análisis está sujeto a unas condiciones estables, si cambia algún elemento del sistema, por lo general es la carga, para saber como cambia el sistema se deberá volver a analizar todo el circuito.
+Por otro lado, para conocer la potencia que entrega un circuito es necesario analizar todos los componentes del mismo, aunque este proceso se puede simplificar si usamos el [Teorema de Thévenin](https://github.com/erickfi/Practica-5), de esta forma simplificamos el circuito y obtenemos un circuito simplificado para carga variable.
 
-El teorema de Thévenin permite, por medio de la aplicación de otras formas de analizar un circuito, simplificar el análisis al reducir el circuito a uno más simple donde relacione la fuente o las fuentes de alimentación, la resistencia del circuito y la carga, de esta forma, es posible conocer como interactúa el circuito al existir una variación en la carga.
-
-Los casos de aplicación de este circuito varían, por ejemplo, un caso común es una toma corriente doméstica, en la que se pueden conectar diferentes aparatos, que representan una carga variable.  
 
 ### 2. OBJETIVOS
 #### Objetivo General
-- Comprobar experimentalmente el Teorema de Thévenin en un circuito resistivo
+- Comprobar experimentalmente el Teorema de la Máxima Transferencia
 #### Objetivos Específicos
 - Calcular y comparar los valores de un circuito de Thévenin de forma analítica y experimental.
 - Aplicar las *Leyes de Kirchhoff* y el *Teorema de superposición* para analizar y reducir un circuito a un circuito de Thévenin.
