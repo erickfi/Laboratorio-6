@@ -19,6 +19,22 @@ Por otro lado, para conocer la potencia que entrega un circuito es necesario ana
 El **Teorema de la Máxima Transferencia de Potencia** estable:
 > "La máxima potencia se transfiere a la carga cuando la resistencia de la carga es igual a la resistencia de Thévenin vista desde la carga (RL=RTh).
 
+Es por esto que la forma más fácil de analizar la potencia suministrada a una carga es simplificando un circuito de dos terminales a un circuito de Thévenin.
+
+![](https://github.com/erickfi/Practica-5/blob/master/Img/Cambio%20circuito.PNG)
+
+Si graficamos la potencia suministrada en función de la variación de la carga obtenemos un gráfica similara a una camapana de Gauss.
+
+![](https://github.com/erickfi/Laboratorio-6/blob/master/Img/Grafica.PNG)
+
+En la cuál podemos observar que el punto más alto de transferencia es alcanzado cuando RL=RTh, si esto ocurre la potencia se puede calcular como:
+
+
+
+Sin embargo, en los circuitos que se realizan en la vida real es poco probable que esto sucede, por lo general la resistencia que presenta la carga (RL) es diferente a la resistencia de la fuente (RTh), es por ello que para calcular la potencia se utiliza:
+
+
+
 
 
 
