@@ -27,15 +27,15 @@ Si graficamos la potencia suministrada en función de la variación de la carga 
 
 ![](https://github.com/erickfi/Laboratorio-6/blob/master/Img/Grafica.PNG)
 
-En la cuál podemos observar que el punto más alto de transferencia es alcanzado cuando RL=RTh, si esto ocurre la potencia se puede calcular como:
+En la cuál podemos observar que el punto más alto de transferencia es alcanzado cuando RL=RTh, si esto ocurre la potencia máxima se puede calcular como:
 
-
+![](https://github.com/erickfi/Laboratorio-6/blob/master/Img/Con%20RTH.PNG)
 
 Sin embargo, en los circuitos que se realizan en la vida real es poco probable que esto sucede, por lo general la resistencia que presenta la carga (RL) es diferente a la resistencia de la fuente (RTh), es por ello que para calcular la potencia se utiliza:
 
+![](https://github.com/erickfi/Laboratorio-6/blob/master/Img/Con%20RL.PNG)
 
-
-
+Ya que RL y RTh no son iguales no se puede alcanzar una _transferencia máxima de potencial ideal,_ pero este valor se puede aproximar variando la resistencia de la carga hasta que sea similar a la resistencia de la fuente pero sin que el funcionamiento del resto de elementos del circuito se vea afectado.
 
 
 ### 4. DIAGRAMAS
