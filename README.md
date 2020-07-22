@@ -41,7 +41,13 @@ Ya que RL y RTh no son iguales no se puede alcanzar una _transferencia máxima d
 ### 4. DIAGRAMAS
 **Diagrama del circuito**
 
-![](https://github.com/erickfi/Practica-5/blob/master/Img/Diagrama%205.PNG)
+![](https://github.com/erickfi/Laboratorio-6/blob/master/Img/Diagrama.PNG)
+
+**Medición de valores**
+
+![](https://github.com/erickfi/Laboratorio-6/blob/master/Img/Thinker%206.1.PNG)
+![](https://github.com/erickfi/Laboratorio-6/blob/master/Img/Thinker%206.2.PNG)
+![](https://github.com/erickfi/Laboratorio-6/blob/master/Img/Thinker%206.3.PNG)
 
 ### 5. LISTA DE COMPONENTES
 
