@@ -6,7 +6,7 @@
 ### 1. PLANTEAMIENTO DEL PROBLEMA
 Al momento de diseñar un circuito eléctrico, por lo general, se busca que el circuito cumpla su trabajo, es decir, que los elementos electrónicos del mismo realicen el trabajo, pero no se toma en cuenta la eficacia para realizar este trabajo, recordando que la potencia representa la tasa de la energía que se convierte en trabajo, existen circuitos que buscan precisamente este objetivo, entregar la máxima potencia de tal forma que el trabajo se realice de ser posible sin pérdida de energía.
 
-Por otro lado, para conocer la potencia que entrega un circuito es necesario analizar todos los componentes del mismo, aunque este proceso se puede simplificar si usamos el [Teorema de Thévenin](https://github.com/erickfi/Practica-5), de esta forma simplificamos el circuito y obtenemos un circuito simplificado para carga variable.
+Por otro lado, para conocer la potencia que entrega un circuito es necesario analizar todos los componentes del mismo, aunque este proceso se puede simplificar si usamos el [Teorema de Thévenin](https://github.com/erickfi/Practica-5), de esta forma simplificamos el circuito y obtenemos un circuito simplificado para carga variable, su aplicación en la ingeniería es fundamental, ya que es importante en los procesos de automatización donde se busca que las máquinas funcionen a su máxima capacidad, es decir, que tengan una máxima potencia.
 
 
 ### 2. OBJETIVOS
@@ -16,19 +16,11 @@ Por otro lado, para conocer la potencia que entrega un circuito es necesario ana
 - Calcular y comparar los valores de un circuito de Thévenin de forma analítica y experimental.
 - Aplicar las *Leyes de Kirchhoff* y el *Teorema de superposición* para analizar y reducir un circuito a un circuito de Thévenin.
 ### 3. MARCO TEÓRICO
-El **Teorema de Thévenin** estable:
-> "un circuito lineal de dos terminales puede remplazarse por un circuito equivalente, este nuevo circuito debe constar de una fuente de tensión VTh, en serie con un resistor RTh"
+El **Teorema de la Máxima Transferencia de Potencia** estable:
+> "La máxima potencia se transfiere a la carga cuando la resistencia de la carga es igual a la resistencia de Thévenin vista desde la carga (RL=RTh).
 
-![](https://github.com/erickfi/Practica-5/blob/master/Img/Cambio%20circuito.PNG)
 
-Donde VTh es el voltaje del circuito en las terminales y RTh es la resistencia equivalente del circuito, es decir, los circuitos de la [Figura 1](https://github.com/erickfi/Practica-5/blob/master/Img/Cambio%20circuito.PNG) son equivalentes, por lo que tienen la misma relación tensión-corriente en sus terminales.
 
-Para hallar la resistencia equivalente RTh, se deben considerar dos casos:
-
->1. El circuito no tiene fuentes dependientes: se deben apagar todas las fuentes independientes, y sumar las resistencias.
->2. El circuito tiene fuentes dependientes: las fuentes dependientes no pueden ser apagadas por ello se opta por imponer una fuente de 1 V en los terminales a y b, e iniciar calculando el voltaje de Thévenin VTh.
-
-Si la resistencia de Thévenin adpota un valor negativo -RTh, nos indica que el circuito suministra potencia, esto regularmente ocurre en un circuito con fuentes dependientes.
 
 ### 4. DIAGRAMAS
 **Diagrama del circuito**
