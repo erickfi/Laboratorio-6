@@ -55,7 +55,7 @@ Ya que RL y RTh no son iguales no se puede alcanzar una _transferencia máxima d
 
 ### 6. TABLA DE RESULTADOS
 
-***Tabla 1. Valores del Circuito equivalente de Thévenin***
+***Tabla 1. Parámetros eléctricos del circuito***
 
 |   RL (Ω)  | Corriente  |   Voltaje  | Potencia calculada | Potencia calculada | Error |
 |:---------:|:----------:|:----------:|:------------------:|:------------------:|:-----:| 
