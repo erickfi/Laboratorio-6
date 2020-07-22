@@ -43,37 +43,9 @@ Ya que RL y RTh no son iguales no se puede alcanzar una _transferencia máxima d
 
 ![](https://github.com/erickfi/Practica-5/blob/master/Img/Diagrama%205.PNG)
 
-#### 4.1 Análisis Analítico
-
-**Identificación de terminales y corrientes**
-
-![](https://github.com/erickfi/Practica-5/blob/master/Img/Cambio%20a%20thevenin.jpg)
-
-**Circuito de Thévenin resultante**
-
-![](https://github.com/erickfi/Practica-5/blob/master/Img/Circuito%20Thevenin.jpeg)
-
-#### 4.2 Análisis Experimental
-
-**Construcción del circuito en [Tinkercad](tinkercad.com) y medición de voltaje y corriente en R=1K Ω**
-
-![](https://github.com/erickfi/Practica-5/blob/master/Img/Thinker%205.1.png)
-
-**Medición del Voltaje de Thévenin VTh**
-
-![](https://github.com/erickfi/Practica-5/blob/master/Img/Thinker%205.2.PNG)
-
-**Medición de la Resistencia de Thévenin RTh**
-
-![](https://github.com/erickfi/Practica-5/blob/master/Img/Thinker5.3.PNG)
-
-**Construcción del Circuito de Thévenin **
-
-![](https://github.com/erickfi/Practica-5/blob/master/Img/Thinker%205.4.PNG)
-
 ### 5. LISTA DE COMPONENTES
 
-![](Img/Materiales.PNG)
+![](https://github.com/erickfi/Laboratorio-6/blob/master/Img/Materiales.PNG)
 
 ### 6. TABLA DE RESULTADOS
 
@@ -102,18 +74,14 @@ Ya que RL y RTh no son iguales no se puede alcanzar una _transferencia máxima d
 
 ### 8. CONCLUSIONES
 
-- Se comprueba experimentalmente el *Teorema de Thévenin* al medir el voltaje en R5= 1k Ohm en el [circuito original](https://github.com/erickfi/Practica-5/blob/master/Img/Diagrama%205.PNG) y al medir el voltaje en los terminales del [circuito de Thévenin](https://github.com/erickfi/Practica-5/blob/master/Img/Cambio%20a%20thevenin.jpg), siendo los voltajes 3.89 V y 3.88 V, respectivamente.
-- Cuando se desconecta la carga, midiendo la resistencia y voltaje de Thévenin, siendo estas 299 Ohms y 5.06 V respectivamente y calculando con la teoría los valores del voltaje3.89 V y corriente 3.89 mA en la resistencia 5 se obtienen que son iguales a los medidos experimentalmente.
-- Al comparar los valores obtenidos forma analítica y experimental, obtenemos errores menores al 1 % los cuales se asocian a la aproximación de los intrumentos de medición, por lo que, un [circuito de dos terminales](https://github.com/erickfi/Practica-5/blob/master/Img/Diagrama%205.PNG) es equivalente al [circuito de Thévenin ](https://github.com/erickfi/Practica-5/blob/master/Img/Circuito%20Thevenin.jpeg)
+
 
 ### 9. RECOMENDACIONES
-- Identificar las fuentes que hay en el circuito y aplicar el correcto análisis para ellas.
-- Construya el diagrama para el experimento lo más parecido al diagrama propuesto, para que analizar el circuito sea más fácil.
-- En el circuito equivalente de thévenin es necesario utilizar un potenciometro para poder darle un valor de 299 ohmios
+
 
 ### 10. CRONOGRAMA
 
-![](https://github.com/erickfi/Practica-5/blob/master/Img/Cronograma%205.PNG)
+![](https://github.com/erickfi/Laboratorio-6/blob/master/Img/Cronograma%206.PNG)
 
 ### 11. REFERENCIAS
 - M. A. Sadiku.Fundamentos de circuitos eléctricos. Mc Graw Hill, third edition, 2006
