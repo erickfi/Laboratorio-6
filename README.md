@@ -76,18 +76,19 @@ Ya que RL y RTh no son iguales no se puede alcanzar una _transferencia máxima d
 
 ### 7. Explicación de Código Fuente
 
-- 1. Arme el circuito tal como se encuentra en el diagrama.
-- 2. Mida el voltaje y corriente de la resistencia 5.
-- 3. Luego desconecte la resistencia 5 y mida el voltaje del circuito abierto 
-- 4. Apague las fuentes y mida la resistencia en el circuito abierto
-- 5. Arme el circuito equivalente de Thévenin agregándole la resistencia 5 en serie y configure la fuente y el potenciómetro con los valores del voltaje y resistencia medidos cuando el circuito estaba abierto, al final mida el voltaje e intensidad de corriente de la resistencia de 1kOhm la figura 
+- 1. Armar el circuito tal como se muestra en el diagrama.
+- 2. Medir la corriente y voltaje de la resistencia de carga para cada valor que adquiere esta resistencia mediante un multímetro, específicamente se debe realizar las mediciones para 220 Ω, 470 Ω, 680 Ω, 820 Ω, 1000 Ω, 1500 Ω, 1800 Ω, 2200 Ω, 3900 Ω, 4700 Ω. En total son 10 mediciones de voltaje y 10 mediciones de corriente.
 
 ### 8. CONCLUSIONES
 
-
+- Una fuente de voltaje entrega la máxima transferencia de potencia cuando necesariamente su resistencia interna es igual a la resistencia de la carga, en este caso la resistencia de Thévenin debe ser obligadamente el mismo valor de la resistencia de la carga.
+- Las resistencias mas próximas a 1200 Ohmios como la de 1000 y 1500, entregan una potencia casi próxima a la potencia máxima, entonces podemos decir que entre mas cercano sea el valor de la resistencia interna, al valor de la resistencia de carga, la potencia tiende a su valor máximo, pero no la van a superar.
+- Para que la potencia sea máxima P= 46.875 mW, la resistencia de la carga RL debe ser igual a la de la fuente RTh, por lo tanto, RL= RTh= 1200 Ω.
+- Se cumple el Teorema de la Máxima Transferencia de Potencia, al observar que la potencia suministrada por todas las resistencias utilizadas es menor a la cálculada si RL=1200 Ω.
 
 ### 9. RECOMENDACIONES
 
+- Una forma de comprobar el teorema de máxima transferencia de potencia es dar valores a la resistencia de carga muy cercanos a la resistencia interna, y observar que la potencia va a estar al limite de la potencia máxima
 
 ### 10. CRONOGRAMA
 
