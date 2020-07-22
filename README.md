@@ -15,6 +15,7 @@ Por otro lado, para conocer la potencia que entrega un circuito es necesario ana
 #### Objetivos Específicos
 - Calcular y comparar los valores de potencia en un circuito de dos terminales de forma analítica y experimental.
 - Demostrar de manera experimental que si RL es diferente de RTh el circuito no alcanzará la potencia máxima.
+- Analizar y determinar el menor error porcentual posible
 ### 3. MARCO TEÓRICO
 El **Teorema de la Máxima Transferencia de Potencia** estable:
 > "La máxima potencia se transfiere a la carga cuando la resistencia de la carga es igual a la resistencia de Thévenin vista desde la carga (RL=RTh).[1]
