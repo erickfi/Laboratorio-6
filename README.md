@@ -56,19 +56,23 @@ Ya que RL y RTh no son iguales no se puede alcanzar una _transferencia máxima d
 ### 6. TABLA DE RESULTADOS
 
 ***Tabla 1. Valores del Circuito equivalente de Thévenin***
-|   VTH(V)  |          |   RTH(Ω)  |             |
-|:---------:|----------|:---------:|-------------|
-| Calculado | 5.0556 V | Calculado | 298.855 ohm |
-| Medido    | 5.06 V   | Medido    | 299 ohm     |
-| Error %   | 0,8%     |   Error % | 0,48%       |
+
+|   RL (Ω)  | Corriente  |   Voltaje  | Potencia calculada | Potencia calculada |
+|:---------:|:----------:|:----------:|:------------------:|:------------------:|
+|           |  Medida    |   medido   | Experimentalmente  | teóricamente       |
+|           |   (mA)     |    (V)     |       (mW)         |        (mW)        |
+|   220     |   10.6     |   2.32     | 24.592             | 24.548             | 
+|   470     |   8.98     |   4.22     | 37.895             | 37.918             |
+|   680     |   7.98     |   5.43     | 43.311             | 43.288             |
+|   820     |   7.43     |   6.09     | 45.248             | 45.216             |
+|   1000    |   6.82     |   6.82     | 46.512             | 46.487             |
+|   1500    |   5.56     |   8.33     | 46.314             | 46.296             |
+|   1800    |   5        |   9        | 45                 | 45                 |
+|   2200    |   4.41     |   9.71     | 42.821             | 42.82              |
+|   3900    |   2.94     |   11.5     | 33.81              | 33.737             |
+|   4700    |   2.54     |   11.9     | 30.226             | 30.379             |
 
 
-***Tabla 2. Comprobación del Teorema de Thévenin***
-| Parámetro Eléctrico | Circuito Original |           |         | Circuito   Equivalente Th |        |         |
-|:-------------------:|:-----------------:|:---------:|:-------:|:-------------------------:|:------:|:-------:|
-|                     | calculado         | medido    | Error % | calculado                 | medido | Error % |
-| Voltaje (V)         | 3.89 V            |  3.8926 V | 0,06%   | 3.88 V                    | 3.89V  | 0,25%   |
-| Corriente (mA)      | 3.89 mA           | 3.8926 mA | 0,06%   | 3.88 mA                   | 3.89mA | 0,25%   |
 
 ### 7. Explicación de Código Fuente
 
