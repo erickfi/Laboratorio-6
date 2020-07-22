@@ -17,7 +17,7 @@ Por otro lado, para conocer la potencia que entrega un circuito es necesario ana
 - Demostrar de manera experimental que si RL es diferente de RTh el circuito no alcanzará la potencia máxima.
 ### 3. MARCO TEÓRICO
 El **Teorema de la Máxima Transferencia de Potencia** estable:
-> "La máxima potencia se transfiere a la carga cuando la resistencia de la carga es igual a la resistencia de Thévenin vista desde la carga (RL=RTh).
+> "La máxima potencia se transfiere a la carga cuando la resistencia de la carga es igual a la resistencia de Thévenin vista desde la carga (RL=RTh).[1]
 
 Es por esto que la forma más fácil de analizar la potencia suministrada a una carga es simplificando un circuito de dos terminales a un circuito de Thévenin.
 
@@ -95,7 +95,7 @@ Ya que RL y RTh no son iguales no se puede alcanzar una _transferencia máxima d
 ![](https://github.com/erickfi/Laboratorio-6/blob/master/Img/Cronograma%206.PNG)
 
 ### 11. REFERENCIAS
-- M. A. Sadiku.Fundamentos de circuitos eléctricos. Mc Graw Hill, third edition, 2006
+- [1] M. A. Sadiku.Fundamentos de circuitos eléctricos. Mc Graw Hill, third edition, 2006
 ### 12. ANEXOS
 - [Cálculos análiticos](https://github.com/erickfi/Laboratorio-6/blob/master/Anexos/Anexos%20lab%206.pdf)
 - [Cómo funciona el circuito](https://www.youtube.com/watch?v=TRDsxjXFfmg&feature=youtu.be)
